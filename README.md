@@ -1,6 +1,6 @@
 # Ticket Stream Processor
 
-Un producteur-consommateur Kafka/Redpanda en Python pour simuler un système de tickets clients en temps réel.
+Un producteur-consommateur Redpanda en Python pour simuler un système de tickets clients en temps réel.
 
 ## 🚀 Fonctionnalités
 
@@ -25,7 +25,6 @@ Un producteur-consommateur Kafka/Redpanda en Python pour simuler un système de 
 ├── consumer/                 # Consommateur PySpark
 │   └── consumer_ticket.py
 ├── docker-compose.yml
-├── requirements.txt
 └── README.md
 ```
 ## 📊 Diagramme du pipeline
@@ -42,7 +41,7 @@ flowchart LR
 
 1. Cloner le dépôt  
    ```bash
-   git clone https://github.com/ton-pseudo/ticket-stream-processor.git
+   git clone https://https://github.com/majinlyut/projet8.git
    cd ticket-stream-processor
    ```
 
