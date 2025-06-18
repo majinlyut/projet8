@@ -1,0 +1,10 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY producer_ticket.py .
+
+RUN pip install kafka-python
+
+CMD ["python", "-u", "producer_ticket.py"]
+
