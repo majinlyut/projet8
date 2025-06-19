@@ -50,7 +50,22 @@ flowchart LR
    docker-compose up --build
    ```
 
-3. Accéder à la Redpanda Console (si configurée)  
+3. Accéder à la Redpanda Console 
    [http://localhost:8080](http://localhost:8080)
+
+4. Consulter les tickets crées
+   ```bash
+   docker-compose logs -f consumer
+   ```
+   
+5. Consulter les tickets traités par Spark
+   ```bash
+   docker-compose logs -f producer
+   ```
+
+## 🎥 Démo en vidéo
+
+[![Watch the video](https://img.youtube.com/vi/pB50tTuo0IM/maxresdefault.jpg)](https://www.youtube.com/watch?v=pB50tTuo0IM)
+
 
 

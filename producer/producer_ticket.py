@@ -34,4 +34,4 @@ while True:
 
     producer.send("client_tickets", value=ticket)
     ticket_id += 1
-    time.sleep(20)
+    time.sleep(10)

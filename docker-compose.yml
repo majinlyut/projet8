@@ -76,3 +76,5 @@ services:
       - redpanda_network
     volumes:
       - ./consumer:/app
+    ports:
+      - "4040:4040"
